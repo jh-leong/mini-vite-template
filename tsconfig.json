@@ -6,6 +6,7 @@
     "strict": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
+    "noImplicitAny": false,
     "sourceMap": false,
     "lib": ["esnext", "dom"],
     "types": ["vite/client", "vitest/globals"],
@@ -16,6 +17,7 @@
   },
   "include": [
     "src/**/*.ts",
+    "src/**/*.tsx",
     "src/**/*.d.ts",
     "src/**/*.vue",
     "typings/**/*.d.ts"
