@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Comp from 'Comp.vue';
+import Comp from './Comp.vue';
 
 const msg = ref('Hello World!');
 </script>
