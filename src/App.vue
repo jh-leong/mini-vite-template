@@ -6,7 +6,7 @@ const msg = ref('Hello World!');
 </script>
 
 <template>
-  <h1 v-foo>{{ msg }}</h1>
+  <h1>{{ msg }}</h1>
   <input v-model="msg" />
-  <Comp></Comp>
+  <Comp class="foo"></Comp>
 </template>
